@@ -19,7 +19,7 @@ The default password is "toor" because reasons.
 * **dir / ls**: lists the contents of the current directory.
 ```dir```, ```ls```
 * **pwd**: gets the full path of the current directory. ```pwd```
-* **rm**: deletes the item in the current directory. ```rm filename```
+* **rm**: deletes the item in the current directory. ```rm filename / folder```
 * **whoami**: prints the current user logged into the system. ```whoami```
 * **logout**: logs the user out of the system. ```logout```
 * **exit**: logs out and terminates the system. ```exit```
