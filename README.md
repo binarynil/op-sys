@@ -15,7 +15,7 @@ The default password is "toor" because reasons.
 * **mkfile**: creates a text file in the current directory.
 ```mkfile filename sometext``` , ```mkfile filename```
 * **mv**: moves a file in the current directory into a different folder.
-```mv filename /full/path/to/new/folder```
+```mv filename /home/path/to/new/folder```
 * **dir / ls**: lists the contents of the current directory.
 ```dir```, ```ls```
 * **pwd**: gets the full path of the current directory. ```pwd```
