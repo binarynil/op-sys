@@ -92,7 +92,7 @@ public class Shell {
                 fileName = checkARGS(input);
                 tempFile = tempRoot.getFile(fileName, tempRoot);
                 if(tempFile != null) {
-                    System.out.println(tempFile.getFileData());
+                    tempFile.getFileData();
                 }
                 break;
             case "cd":
@@ -118,6 +118,7 @@ public class Shell {
             case "mkfile":
                 //String fileStuff = checkARGS(input);
                 String newFileName = input.next();
+                System.out.println(newFileName);
                 String fileData = checkARGS(input);
                 tempFile = new File(newFileName, fileData);
                 tempRoot.addItem(tempFile);
@@ -262,7 +263,7 @@ public class Shell {
 
         //int index = -1;
         String[] arrayStr = path.split(" ");
-        System.out.println(arrayStr.length);
+        //System.out.println(arrayStr.length);
         for(int i = 0; i < arrayStr.length; i++) {
             int index = temp.findItem(arrayStr[i]);
             if(index >= 0) {
@@ -281,6 +282,7 @@ public class Shell {
             arg = input.nextLine();
             if(arg.length() > 1) {
                 arg = arg.substring(1);
+                //System.out.println(arg);
             }
         }
 

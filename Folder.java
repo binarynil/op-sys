@@ -18,7 +18,7 @@ public class Folder extends FileSys {
             System.out.println("cannot add item");
         }
         else {
-            System.out.println(i);
+            //System.out.println(i);
             folderContent[i] = item;
         }
     }
@@ -68,6 +68,7 @@ public class Folder extends FileSys {
         if(isEmpty()) {
             return -1;
         }
+        //System.out.println(name);
 
         for(int i = 0; i < folderContent.length; i++) {
             if(folderContent[i].getType() == '-' && folderContent[i].getName().equalsIgnoreCase(name)) {
